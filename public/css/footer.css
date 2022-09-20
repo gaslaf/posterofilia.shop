@@ -1,0 +1,25 @@
+.footer {
+    background-color: #540e21;
+    font-family: var(--titulo-font);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: white 1px solid;
+}
+.footer .footer-img{
+    text-align: center;
+}
+.footer img{
+    width: 20%;
+    margin-top: 10px;
+}
+.footer .footer-nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
