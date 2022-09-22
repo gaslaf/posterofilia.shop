@@ -53,6 +53,7 @@
 }
 .header .titulo{
     font-family: var(--otro-font);
+    margin: 0 0 10px 0;
     font-size: 10px;
     color: #f5edf0;
     text-align: center;
@@ -97,4 +98,11 @@
 }
 .header .carrito-perfil .carrito{
     margin: 0 3px 0 0;
+}
+
+@media (min-width : 460px){
+
+}
+@media (min-width : 768px){
+    
 }

@@ -1,0 +1,38 @@
+.login{
+    background-color: #110508;
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    align-items: center;
+}
+.login .login-cnt{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login .login-cnt .usuario,.cont-cnt,.boton{
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-family: var(--menu-font);
+}
+.login .login-cnt .input{
+    border: 0;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color: black;
+}
+.login .login-cnt .boton{
+    background-color: #34234e;
+    border: 0;
+    color: white;
+}
+.login .login-cnt .iniciar-cnt .boton:hover{
+    color: #ec1037;
+
+}
