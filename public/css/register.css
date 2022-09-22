@@ -1,0 +1,40 @@
+.register{
+    background-color: #110508;
+    display: flex;
+    justify-content: center;
+    height: 450px;
+}
+.register .register-cnt{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+}
+.register .register-div .input-reg{
+    border: 0;    
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    width: 100%;
+}
+.register .register-div{
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.register .boton-div{
+    background-color: #34234e;
+}
+.register .boton-reg{
+    background-color: #34234e;
+    font-family: var(--menu-font);
+    text-transform: uppercase;
+    border: 0;
+    color: white;
+}
+.register .boton-reg:hover{
+    color: #ec1037;
+}
