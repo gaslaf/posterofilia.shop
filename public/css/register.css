@@ -19,6 +19,13 @@
     color: black;
     width: 100%;
 }
+.register .datos-cnt{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+}
 .register .register-div{
     padding: 10px;
     background: white;
@@ -37,4 +44,29 @@
 }
 .register .boton-reg:hover{
     color: #ec1037;
+}
+
+@media  (min-width: 468px){
+    .register{
+        height: 350px;
+    }
+    .register .datos-cnt{
+        flex-direction: row;
+        width: 55%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .register .register-div{
+        width: 35%;
+        margin: 10px;
+    }
+    .register .register-div .input-reg{
+        width: 100%;
+    }
+    .register .boton-div{
+        width: 15%;
+        align-self: center;
+    }.register .boton-reg{
+        width: 100%;
+    }
 }
