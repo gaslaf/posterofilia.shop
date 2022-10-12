@@ -10,5 +10,6 @@ app.get('/detail',(req,res) => res.sendFile(path.join(__dirname,'views','detail.
 app.get('/shop',(req,res) => res.sendFile(path.join(__dirname,'views','shop.html')))
 app.get('/login',(req,res) => res.sendFile(path.join(__dirname,'views','login.html')));
 app.get('/register',(req,res) => res.sendFile(path.join(__dirname,'views','register.html')));
+app.get('/head',(req,res)=>res.sendFile(path.join(__dirname,'views','head.html')))
 
 app.listen(port,console.log(`Corriendo en http://localhost:${port}`))
