@@ -1,5 +1,4 @@
 .register{
-    background-color: #110508;
     display: flex;
     justify-content: center;
     height: 450px;
@@ -18,6 +17,7 @@
     font-size: 14px;
     color: black;
     width: 100%;
+    height: 50px;
 }
 .register .datos-cnt{
     margin-top: 20px;
@@ -28,22 +28,21 @@
 }
 .register .register-div{
     padding: 10px;
-    background: white;
     border-radius: 5px;
     margin-bottom: 20px;
+    width: 70%;
 }
-.register .boton-div{
-    background-color: #34234e;
-}
+
 .register .boton-reg{
-    background-color: #34234e;
-    font-family: var(--menu-font);
-    text-transform: uppercase;
+    background: var(--color-tres-);
     border: 0;
     color: white;
+    text-align: center;
 }
 .register .boton-reg:hover{
-    color: #ec1037;
+    background: var(--color-cuatro-);
+    border-radius: 5px;
+    color: var(--color-tres-);
 }
 
 @media  (min-width: 468px){
@@ -57,16 +56,17 @@
         justify-content: center;
     }
     .register .register-div{
-        width: 35%;
         margin: 10px;
     }
     .register .register-div .input-reg{
         width: 100%;
     }
-    .register .boton-div{
-        width: 15%;
-        align-self: center;
-    }.register .boton-reg{
+
+    .register .boton-reg{
         width: 100%;
     }
+}
+
+@media (min-width: 768px){
+    
 }

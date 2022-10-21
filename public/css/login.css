@@ -1,5 +1,4 @@
 .login{
-    background-color: #110508;
     display: flex;
     justify-content: center;
     height: 350px;
@@ -28,11 +27,12 @@
     color: black;
 }
 .login .login-cnt .boton{
-    background-color: #34234e;
+    background: var(--color-tres-);
     border: 0;
     color: white;
 }
 .login .login-cnt .iniciar-cnt .boton:hover{
-    color: #ec1037;
-
+    background: var(--color-cuatro-);
+    border-radius: 5px;
+    color: var(--color-tres-);
 }
